@@ -41,14 +41,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .header-tel {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -150,14 +150,14 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .address-tel {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .address-map:hover,
 .address-map:focus {
@@ -171,8 +171,11 @@ body {
 .address-tel:focus {
   color: var(--accent-color);
 }
-/*-----FILTER-----*/
-.filter-button {
+.address {
+  font-style: normal;
+}
+/*-----PORTFOLIO-FILTER-----*/
+.portfolio-filter-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -182,20 +185,20 @@ body {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.filter-button:hover,
-.filter-button:focus {
+.portfolio-filter-button:hover,
+.portfolio-filter-button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
-/*-----PROJECTS-----*/
-.portfolio-name {
+/*-----PORTFOLIO-EXAMPLE-----*/
+.portfolio-example-name {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
-.portfolio-category {
+.portfolio-example-category {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
